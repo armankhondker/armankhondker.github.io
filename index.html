@@ -1,178 +1,269 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Minifolio - Bootstrap Responsive Resume, Personal Portfolio Template</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RohanBalaji</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="{% static 'css/freelancer.min.css' %}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico'%}">
+
+
 </head>
 
-<body>
-<!-- header section -->
-<section class="banner" role="banner">
-  <header id="header"> 
-    <!-- navigation section  -->
-    <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/logo.png" alt="Mafolio"></a>
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#">External link</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-    <!-- navigation section  --> 
-  </header>
-  
-  <!-- banner text -->
-  <div class="container">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="banner-text text-center">
-        <h1>Hey, I’m John</h1>
-        <p>Looking for a strategist and experienced designer,<br>
-          Scroll to see my work.</p>
-        <!-- banner text --> 
-      </div>
-    </div>
-  </div>
-</section>
-<!-- header section --> 
-<!-- description text section -->
-<section id="descripton" class="section descripton">
-  <div class="container">
-    <div class="col-md-10 col-md-offset-1 text-center">
-      <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet avida at eget metus.</p>
-    </div>
-  </div>
-</section>
-<!-- description text section --> 
-<!-- portfolio section -->
-<section id="works" class="works section no-padding">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Logo Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Branding</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Graphic Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Logo Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Branding</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
-          </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-    </div>
-  </div>
-</section>
-<!-- portfolio section --> 
-<!-- hire me section -->
-<section id="hireme" class="section hireme">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>Need something specific?</h3>
-      <p>We are currently crafting new products but would love to hear from you.</p>
-      <a href="contact.html" class="btn btn-large">Hire me</a> </div>
-  </div>
-</section>
-<!-- hire me section --> 
-<!-- footer -->
-<footer class="section footer">
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="col-md-12">
-        <p>
-        <ul class="footer-share">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-        </p>
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- footer --> 
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <ul class="list-inline">
+                            
+                            <li>
+                                <a title = "Contact Me" href="mailto:rohan.balaji@utexas.edu" class="btn-social btn-outline" target = "blank"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                           
+                            <li>
+                                <a title = "My Linkedin" href="https://www.linkedin.com/in/rohan-balaji-4069a6124/" class="btn-social btn-outline" target = "blank"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a title = "My Github" href="https://github.com/RBALAJI98" class="btn-social btn-outline" target = "blank"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a title = "My Resume" href="{% static 'Resume.pdf' %}" class="btn-social btn-outline" target="blank"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                            </li>
+                        </ul>
+            </div>
 
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.fancybox.pack.js"></script> 
-<script src="js/jquery.waypoints.min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects" id = "navbarproject">Projects</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="{% static 'img/pic.jpg' %}" width = "200" height = "150" alt="" id = "prof" style>
+                    <div class="intro-text">
+                        <h1 class="name">Rohan Balaji</h1>
+                        <hr class="star-light">
+                        <span class="skills">
+                            Programmer-Student-Hacker
+
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+   
+    <!-- About Section -->
+    <section class="success" id="about" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2><font color = "black">About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+              
+                
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                             <p>Welcome to my site. I am a sophomore electrical engineering major at UT Austin. Some of my primary interests include programming, machine learning, hacking, travelling, and computer vision. 
+                             <br><br>
+
+
+                            Feel free to browse through the site and contact me if you have any questions.                         
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="projects" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects </h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <center>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.hackster.io/rohan-balaji/space-invaders-b0e019" target = "blank">               
+                    <img src="{% static 'img/spaceship.jpg ' %}" class="img-responsive" alt="ship" id = "Ship" >
+                    </a>
+                         <div class="col-lg-8 col-lg-offset-2 text-center" id = "ship_text">
+                           Space Invaders is an interactive hardware based game built for the embedded systems course.
+                        </div>
+                                          
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    
+                     <a href="https://www.hackster.io/31723/line-follower-robot-db2823" target = "blank">         
+                    <img src="{% static 'img/robot.jpg ' %}" class="img-responsive" alt="robot" >
+                    </a>
+                          <div class="col-lg-8 col-lg-offset-2 text-center" id = "ship_text">
+                            Built for a class, this robot follows a black line uses photoresistors.
+                        
+                        </div>
+                
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    
+                    <a href="https://devpost.com/software/pictolate" target = "blank">       
+                    <img src="{% static 'img/pictolate.jpg' %}" class="img-responsive" alt="Circus tent">
+                    </a>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-center" id = "ship_text">
+                           Pictolate is a web-app built during Hack Texas and can "translate" images.
+                        
+                        </div>
+                </div>
+
+              
+                
+            </div>
+            </center>
+
+            <br>
+             <center>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                
+                    <a href="" target = "blank">               
+                    <img src="{% static 'img/website.jpg ' %}" class="img-responsive" alt="ship" id = "Ship" >
+                    </a>
+                         <div class="col-lg-8 col-lg-offset-2 text-center" id = "ship_text">
+                            My personal webpage. Built using HTML/CSS.
+                        
+                        </div>
+                                  
+                </div>
+
+               
+
+              
+                
+            </div>
+            </center>
+            
+                                          
+                </div>
+            </div>
+        </div>
+
+
+                
+    </section>
+
+
+
+
+    
+    
+
+
+    
+    <!-- Footer -->
+    <footer class="text-center" id = "footer">
+        <div class="footer-above">
+            <div class="container">
+                
+                  
+        <div class="footer-below">
+            <div class="container">
+                <center>
+                    <div class="row">
+                        <div class="col-lg-12">
+                    
+                            &copy; Rohan Balaji 2017 <br>
+                            Build with Python & HTML/CSS <br>
+                            Site updated regularly 
+
+                    
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    
+    <!-- jQuery -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    
+
+    <!-- Theme JavaScript -->
+    <script src="{% static 'js/freelancer.min.js ' %}"></script>
+
 </body>
+
 </html>
