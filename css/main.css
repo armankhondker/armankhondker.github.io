@@ -12,6 +12,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
 p {
 	font-size: 14px;
@@ -306,7 +307,7 @@ ul li {
 }
 .banner-text h1 {
 	color: #fff;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Rammetto One", sans-serif;
 	font-size: 80px;
 	font-weight: 700;
 }
@@ -509,7 +510,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .innerbanner {
-	background-color: #00bf8f;
+	background-color: #00aced;text-transform: 
 	min-height: 100%;
 }
 .innerbanner-text {
@@ -518,7 +519,7 @@ ul li {
 }
 
 .innerbanner-text p {
-	color: #fff;
+	color: #fff;text-transform: 
 	font-family: "Roboto Slab", sans-serif;
 	font-size: 36px;
 	font-weight: 400;
