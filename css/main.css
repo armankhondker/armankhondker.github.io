@@ -326,7 +326,6 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .descripton p {
-	background-color: #bb0000;
 	color: #bb0000;
 	font-size: 18px;
 	line-height: 33px;
@@ -468,7 +467,7 @@ ul li {
 	Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	background-color: #bb0000;
+	background-color: #7927cb;
 	text-align: center;
 }
 .footer p {
