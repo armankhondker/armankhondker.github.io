@@ -446,7 +446,7 @@ ul li {
 	Hire me
 -------------------------------------------------------------------------------*/
 .hireme {
-	background-color: #fafafa;
+	background-color: ##bb0000;
 }
 .hireme h3 {
 	font-family: "Roboto", sans-serif;
@@ -560,7 +560,7 @@ border-radius:50%;
 margin-top:50px;	
 }
 .conForm input {
-	background:#fafafa;
+	background:##bb0000;
 	color:#797979;
 	padding:15px 30px;
 	border:none;
@@ -575,7 +575,7 @@ margin-top:50px;
 	margin-right:0px;
 }
 .conForm textarea {
-	background:#fafafa;
+	background:##bb0000;
 	color:#797979;
 	padding:15px 30px;
 	margin-bottom:18px;
