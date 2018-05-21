@@ -473,12 +473,12 @@ ul li {
 .footer p {
 	font-family: "Roboto", sans-serif;
 	font-size: 11px;
-	color: #7f7f7f;
+	color: #fafafa;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 .footer a {
-	color: #7f7f7f;
+	color: #fafafa;
 }
 .footer a:hover {
 	color: #e84545;
