@@ -300,7 +300,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-color: #00aced;
+	background-color: ##f5deb3;
 	min-height: 750px;
 }
 .banner-text {
@@ -512,7 +512,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .innerbanner {
-	background-color: #00aced;text-transform: 
+	background-color: ##f5deb3;text-transform: 
 	min-height: 100%;
 }
 .innerbanner-text {
