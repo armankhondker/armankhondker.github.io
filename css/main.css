@@ -14,13 +14,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
+
 @font-face{
-	src: url(fonts/kingsman.ttf);
-	font-family: kings;
-}
-@font-face{
-	src: url(fonts/kenyan.ttf);
-	font-family: ken;
+	src: url(fonts/ObelixPro-cyr.ttf);
+	font-family: oblix;
 }
 
 p {
@@ -315,7 +312,7 @@ ul li {
 }
 .banner-text h1 {
 	color: #fff;
-	font-family: ken;
+	font-family: oblix;
 	font-size: 80px;
 	font-weight: 700;
 }
