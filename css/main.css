@@ -474,7 +474,7 @@ ul li {
 	Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	 background-image: linear-gradient(#F2994A,#bf5700);
+	 background-image: linear-gradient(#F2994A, #bf5700);
 	text-align: center;
 }
 .footer p {
@@ -519,7 +519,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .innerbanner {
-	background-color: #00aced;text-transform: 
+	background-image: linear-gradient(#bf5700,#F2994A);text-transform: 
 	min-height: 100%;
 }
 .innerbanner-text {
@@ -540,6 +540,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Inner description
 -------------------------------------------------------------------------------*/
+
 .inner-description h1 {
 	color: #3d3d3d;
 	font-size: 23px;
