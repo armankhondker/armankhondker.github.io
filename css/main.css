@@ -93,6 +93,7 @@ ul, ol {
 }
 ul li {
 	list-style: none;
+	font-weight:bold;
 }
 .section {
 	padding: 100px 0;
@@ -156,10 +157,11 @@ ul li {
 .navigation a {
 	color: rgba(255, 255, 255, 0.75);
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: bold;
 	margin-left: 40px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .navigation a:hover, .navigation a.active {
 	color: #fff;
@@ -312,9 +314,9 @@ ul li {
 }
 .banner-text h1 {
 	color: #fff;
-	font-family: oblix;
-	font-size: 80px;
-	font-weight: 700;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+	font-size: 70x;
+	font-weight: bold;
 }
 .banner-text p {
 	color: #fff;
