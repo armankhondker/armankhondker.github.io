@@ -100,8 +100,30 @@ ul li {
 	list-style: none;
 	font-weight:bold;
 }
+#ulTop li {
+    background: #3d3d3d none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #ffffff;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	padding: 4px 0;
+	margin: 0 5px;
+	display: inline-block;
+	float: none;
+}
+.topLinks {
+	padding-top: 35px;
+	padding-bottom: 75px;
+	color: white;
+}
+
+.fa:before {
+    content: "\f09b";
+    color: white;
+}
 .section {
-	padding: 100px 0;
+	padding: 80px 0;
 	/* background-color: #F2994A;  */
 }
 
@@ -334,7 +356,7 @@ ul li {
 	 background-image: linear-gradient(#bf5700, #F2994A);
 }
 .banner-text {
-	padding-top: 28%;
+	padding-top: 25%;
 }
 .banner-text h1 {
 	color: #fff;
@@ -349,7 +371,7 @@ ul li {
 	letter-spacing: 3px;
 	line-height: 24px;
 	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 /* ------------------------------------------------------------------------------
 	Description Text
@@ -563,7 +585,7 @@ ul li {
 .footer .footer-share a {
 	color: #fff;
 }
-.footer .fa-heart {
+.footer .fa-heart:before {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
