@@ -71,7 +71,7 @@ h5 {
 }
 b{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-	font-style: italic;
+	/*font-style: italic;*/
 	/* font-weight: 500; */
 }
 /* ------------------------------------------------------------------------------
