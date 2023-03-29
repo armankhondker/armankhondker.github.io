@@ -25,6 +25,7 @@ p {
 	line-height: 22.4px;
 	color: #6c7279;
 }
+
 h1 {
 	font-size: 65px;
 	color: #2d3033;
@@ -368,7 +369,7 @@ ul li {
 	font-weight: 500;
 	letter-spacing: 3px;
 	line-height: 24px;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 }
 /* ------------------------------------------------------------------------------
