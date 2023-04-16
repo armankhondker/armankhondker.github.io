@@ -27,7 +27,7 @@ p {
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 60px;
 	color: #2d3033;
 }
 h2 {
@@ -79,7 +79,10 @@ b{
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: white;
+}
+.test {
+	color: black;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -165,7 +168,7 @@ ul li {
 	float: left;
 }
 #header.fixed {
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: #222
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -190,7 +193,7 @@ ul li {
 }
 
 .navigation2 a {
-	color: rgba(255, 255, 255, 0.75);
+	color: #949494;
 	font-size: 15px;
 	font-weight: bold;
 	margin-left: 40px;
@@ -202,7 +205,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: rgba(255, 255, 255, 0.75);
+	color: #949494;
 	font-size: 15px;
 	font-weight: bold;
 	margin-left: 40px;
@@ -210,8 +213,8 @@ ul li {
 	text-transform: uppercase;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
-.navigation a:hover, .navigation a.active {
-	color: #fff;
+.navigation a:hover, .navgiation2 a:hover, .navigation a.active {
+	color: #5A5A5A;
 }
 .nav-toggle {
 	display: none;
@@ -270,7 +273,7 @@ ul li {
 	transition-duration: 0s;
 }
 .nav-toggle span {
-	background-color: #fff;
+	background-color: #949494;
 	bottom: auto;
 	display: inline-block;
 	height: 3px;
@@ -286,7 +289,7 @@ ul li {
 	transform: translateX(-50%) translateY(-50%);
 }
 .nav-toggle span:before, .nav-toggle span:after {
-	background-color: #fff;
+	background-color: #949494;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -333,7 +336,7 @@ ul li {
 	background-color: rgba(255, 255, 255, 0);
 }
 .nav-toggle.close-nav span:before, .nav-toggle.close-nav span:after {
-	background-color: #fff;
+	background-color: black;
 }
 .nav-toggle.close-nav span:before {
 	-moz-transform: translateY(0) rotate(45deg);
@@ -352,19 +355,19 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	 background-image: linear-gradient(#bf5700, #F2994A);
+	 background-image: linear-gradient(white, white);
 }
 .banner-text {
 	padding-top: 25%;
 }
 .banner-text h1 {
-	color: #fff;
+	color: black;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 	font-size: 70x;
 	font-weight: 500;
 }
 .banner-text p {
-	color: #fff;
+	color: black;
 	font-size: 19px;
 	font-weight: 500;
 	letter-spacing: 3px;
@@ -550,7 +553,7 @@ ul li {
 	Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	 background-image: linear-gradient(#F2994A, #bf5700);
+	 background-image: linear-gradient(white, #white);
 	text-align: center;
 }
 .footer p {
@@ -572,7 +575,7 @@ ul li {
 .footer .footer-share li {
 	background: #3d3d3d none repeat scroll 0 0;
 	border-radius: 50%;
-	color: #ffffff;
+	color: black;
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
@@ -595,7 +598,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .innerbanner {
-	background-image: linear-gradient(#bf5700,#F2994A);text-transform: 
+	background-image: linear-gradient(white,#white);text-transform: 
 	min-height: 100%;
 }
 .innerbanner-text {
@@ -603,7 +606,7 @@ ul li {
 }
 
 .innerbanner-text p {
-	color: #fff;text-transform: 
+	color: #000000;text-transform: 
 	font-family: "Rammeto One", sans-serif;
 	font-size: 36px;
 	font-weight: 400;
