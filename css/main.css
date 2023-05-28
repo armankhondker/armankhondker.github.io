@@ -199,7 +199,6 @@ ul li {
 	font-weight: bold;
 	margin-left: 40px;
 	letter-spacing: 3px;
-	/* text-transform: uppercase; */
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .navigation li {
@@ -211,7 +210,6 @@ ul li {
 	font-weight: bold;
 	margin-left: 40px;
 	letter-spacing: 3px;
-	/* text-transform: uppercase; */
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .navigation a:hover, .navgiation2 a:hover, .navigation a.active {
@@ -219,14 +217,14 @@ ul li {
 }
 .nav-toggle {
 	display: none;
-	height: 44px;
+	height: 35px;
 	overflow: hidden;
 	position: fixed;
 	right: 5%;
 	text-indent: 100%;
 	top: 32px;
 	white-space: nowrap;
-	width: 44px;
+	width: 35px;
 	z-index: 99999;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
