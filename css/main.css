@@ -47,7 +47,7 @@ h4 {
 h5 {
 	font-size: 14px;
 	color: #2d3033;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 700;
 }
 .btn {
