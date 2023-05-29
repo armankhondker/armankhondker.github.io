@@ -195,10 +195,10 @@ ul li {
 
 .navigation2 a {
 	color: #949494;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
 	margin-left: 40px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .navigation li {
@@ -206,10 +206,10 @@ ul li {
 }
 .navigation a {
 	color: #949494;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
 	margin-left: 40px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 .navigation a:hover, .navgiation2 a:hover, .navigation a.active {
