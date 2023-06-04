@@ -703,3 +703,12 @@ margin-top:50px;
     font-size: 17px;
     font-weight: 700;
 }
+.text-secondary p{
+	color: var(--gray11);
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	line-height: 24px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
