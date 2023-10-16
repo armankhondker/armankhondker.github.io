@@ -160,10 +160,10 @@ ul li {
 	max-width: 1170px;
 	padding: 30px 0;
 	width: 100%;
-	-moz-transition: padding 0.3s;
-	-o-transition: padding 0.3s;
-	-webkit-transition: padding 0.3s;
-	transition: padding 0.3s;
+	-moz-transition: padding 0.0s;
+	-o-transition: padding 0.0s;
+	-webkit-transition: padding 0.0s;
+	transition: padding 0.0s;
 	text-align: center;
 }
 #header .logo {
@@ -174,7 +174,7 @@ ul li {
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 0;
+	padding: 0px 0;
 }
 #header.fixed .nav-toggle {
 	top: 8px;
@@ -191,7 +191,7 @@ ul li {
 	float: right;
 }
 .navigation2 {
-	float: left;
+	float: right;
 }
 
 .navigation2 a {
@@ -207,7 +207,7 @@ ul li {
 }
 .navigation a {
 	color: #949494;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	margin-left: 40px;
 	letter-spacing: 2px;
@@ -358,7 +358,7 @@ ul li {
 	 background-image: linear-gradient(white, white);
 }
 .banner-text {
-	padding-top: 10%;
+	padding-top: 7%;
 }
 .banner-text h1 {
 	color: black;
