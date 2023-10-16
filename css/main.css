@@ -159,6 +159,7 @@ ul li {
 	margin: 0 auto;
 	max-width: 1170px;
 	padding: 30px 0;
+	padding-right: 27px;
 	width: 100%;
 	-moz-transition: padding 0.0s;
 	-o-transition: padding 0.0s;
@@ -188,10 +189,10 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
-	float: right;
+	float: center;
 }
 .navigation2 {
-	float: right;
+	float: center;
 }
 
 .navigation2 a {
