@@ -23,7 +23,7 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #a9a9b3;
 }
 
 h1 {
@@ -95,6 +95,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: #6c7279;
+	background-color: #232425;
 }
 ul, ol {
 	margin: 0;
@@ -362,13 +363,13 @@ ul li {
 	padding-top: 7%;
 }
 .banner-text h1 {
-	color: black;
+	color: #a9a9b3;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 	font-size: 70x;
 	font-weight: 500;
 }
 .banner-text p {
-	color: black;
+	color: #a9a9b3;
 	font-size: 19px;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -706,7 +707,7 @@ margin-top:50px;
     font-weight: 700;
 }
 .text-secondary p{
-	color: var(--gray11);
+	color: #a9a9b3;
 	font-size: 17px;
 	font-weight: 400;
 	letter-spacing: 2.5px;
