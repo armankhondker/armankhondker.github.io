@@ -27,7 +27,7 @@ p {
 }
 
 h1 {
-	font-size: 35px;
+	font-size: 30px;
 	color: #2d3033;
 }
 h2 {
@@ -95,7 +95,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: #6c7279;
-	background-color: #232425;
+	background-color: #282a36;
 }
 ul, ol {
 	margin: 0;
